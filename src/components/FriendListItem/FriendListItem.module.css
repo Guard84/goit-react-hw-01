@@ -1,0 +1,25 @@
+.online {
+  color: green;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.offline {
+  color: red;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.friendInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.friendName {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 24px;
+}

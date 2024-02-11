@@ -1,6 +1,8 @@
+import css from './TransactionHistory.module.css';
+
 export const TransactionHistory = ({ items }) => {
   return (<div>
-    <table>
+    <table className={css.tableTransaction}>
       <thead>
         <tr>
           <th>Type</th>
@@ -12,7 +14,7 @@ export const TransactionHistory = ({ items }) => {
       <tbody>
         {items.map(({ id, type, amount, currency }) => (
           <tr key={id}>
-            <td>{type}</td>
+            <td>{type.charAt(0).toUpperCase() + type.slice(1)}</td>
             <td>{amount}</td>
             <td>{currency}</td>
           </tr>

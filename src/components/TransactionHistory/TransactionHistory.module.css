@@ -1,0 +1,27 @@
+.tableTransaction {
+  border: 2px solid black;
+  width: 780px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-family: Montserrat;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #a5a0a0;
+  font-family: Montserrat;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+  font-family: Montserrat;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
