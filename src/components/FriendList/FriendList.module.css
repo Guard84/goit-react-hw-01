@@ -1,6 +1,7 @@
 .listFriend {
   list-style-type: none;
   display: flex;
+  justify-content: center;
   gap: 20px;
   padding: 0;
 }
